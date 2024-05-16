@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>生成食譜</title>
+</head>
+
+<body>
+<h2>AI 米其林甜點大師-生成食譜</h2>
+<form action="/making" method="post">
+  <center> 
+  <p>
+    <label for="Bread">Bread %：</label>
+    <input type="text" name="Bread">
+    <label for="Cake">Cake %：</label>
+    <input type="text" name="Cake">
+    <label for="Cookie">Cookie %：</label>
+    <input type="text" name="Cookie">
+    <label for="Croissant">Croissant %：</label>
+    <input type="text" name="Croissant">
+  </p></center>
+
+  </p>
+  <input type="reset" value="重設">
+  <input type="submit" value="生成">
+</form>
+<h3>你的食譜為：</h3>
+<form action="/home" method="get">
+  <p>
+    {{message}}
+  </p>
+  <input type="submit" value="回前頁">
+</form>
+</body>
+</html>

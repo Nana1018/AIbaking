@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+      {
+          "src": "testbakingflasklite.py",
+          "use": "@vercel/python"
+      }
+  ],
+  "routes": [
+      {"src": "/(.*)", "dest": "/testbakingflasklite.py"}
+  ]
+}

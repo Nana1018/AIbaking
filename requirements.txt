@@ -1,0 +1,3 @@
+Flask==2.2.5
+numpy==1.19.5
+tflite_runtime==2.7.0

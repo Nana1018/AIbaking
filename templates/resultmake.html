@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>生成食譜</title>
+
+    </head>
+    <body>
+        <h2>你的食譜:</h2>
+        <form action="{{ url_for('home') }}">
+            <p>
+            
+            {{message}}
+            </p>
+                <input type="submit" value="回前頁">
+        </form>
+
+   </body>
+</html>
