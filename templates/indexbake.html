@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<h2>AI 米其林甜點大師</h2>
+<center><h2>AI 米其林甜點大師</h2></center>
 <form action="{{ url_for('baking') }}" method="POST">
   <center>
   <table>
@@ -102,9 +102,14 @@
   </p></center> -->  
 
   </p>
-  <input type="reset" value="重設">
-  <input type="submit" value="送出">
-  
+  <center>
+  <table>
+    <tr>
+      <td><input type="reset" value="重設"></td>
+      <td><input type="submit" value="送出"></td>
+    </tr>
+
+  </center>
 </form>
 <p>
 <form action="/make">
