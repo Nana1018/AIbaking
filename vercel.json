@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
       {
-          "src": "testbakingflasklite.py",
+          "src": "testbakingflasklite_now.py",
           "use": "@vercel/python"
       }
   ],
   "routes": [
-      {"src": "/(.*)", "dest": "/testbakingflasklite.py"}
+      {"src": "/(.*)", "dest": "/testbakingflasklite_now.py"}
   ]
 }
