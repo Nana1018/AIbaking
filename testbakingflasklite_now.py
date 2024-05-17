@@ -305,7 +305,7 @@ def baking():
         croissant = str(confidence[3]),
         Temperature = str(T),
         Time = str(t),
-        dessert = d,
+        dessert = "static/croissant.jpg",
         message = l)
     
 
