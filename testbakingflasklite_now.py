@@ -285,7 +285,7 @@ def baking():
         second = np.argmax(confidence[np.argmax(confidence)+1:])+ np.argmax(confidence)+1
             # print(np.max())
         if first == 0 and second == 2:
-            d = "static/breakie.jpg"
+            d = "static/breaie.jpg"
         elif first == 1 and second == 2:
             d = "static/cakie.jpg"
         elif first == 2 and second == 3:
@@ -305,7 +305,7 @@ def baking():
         croissant = str(confidence[3]),
         Temperature = str(T),
         Time = str(t),
-        dessert = "static/bread.jpg",
+        dessert = d,
         message = l)
     
 
