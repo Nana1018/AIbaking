@@ -1,39 +1,38 @@
 <!doctype html>
 <html style="background-color:#e3d7c1;">
-    <head>
-        <meta charset="utf-8">
-        <title>你的甜點是?</title>
-
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>你的甜點是?</title>
+</head>
     
-    <body>
-        <center><font size="5" color="#3D332A"><h2>你的甜點是?</h2></center>
-        <form action="{{ url_for('home') }}">
-            <center>
-            <table>
-            <tr>
-                <td>Bread：{{ bread }} %</td>
-                <td>Cake：{{ cake }} %</td>
-                <td>Cookie：{{ cookie }} %</td>
-                <td>Croissant：{{ croissant }} %</td>
-                <td>{{message}}</td>
-            </tr>
+<body>
+<center><font size="5" color="#3D332A"><h2>你的甜點是?</h2></center>
+<form action="{{ url_for('home') }}">
+    <center>
+    <table>
+    <tr>
+        <td>Bread：{{ bread }} %</td>
+        <td>Cake：{{ cake }} %</td>
+        <td>Cookie：{{ cookie }} %</td>
+        <td>Croissant：{{ croissant }} %</td>
+        <td>{{message}}</td>
+    </tr>
 
-        <center><font size="5" color="#3D332A"><h3>烘烤指標</h3></center>
-            <center>
-            <table>
-            <tr>
+    <center><font size="5" color="#3D332A"><h3>烘烤指標</h3></center>
+        <center>
+        <table>
+        <tr>
             <td>Temperature：{{ Temperature }} C</td>
             <td>Time：{{ Time }} min</td>
+        </tr>
+        </p>
+        <center>
+        <table>
+            <tr>
+                <td><input type="reset" value="返回前頁" style="width:120px;height:40px;"></td>
             </tr>
-            </p>
-            <center>
-            <table>
-                <tr>
-                    <td><input type="reset" value="返回前頁" style="width:120px;height:40px;"></td>
-                </tr>
-            </table>
-            </center>
+        </table>
+        </center>
         </form>
 
    </body>
