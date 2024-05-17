@@ -285,19 +285,19 @@ def baking():
         second = np.argmax(confidence[np.argmax(confidence)+1:])+ np.argmax(confidence)+1
             # print(np.max())
         if first == 0 and second == 2:
-            d = "/static/breakie.jpg"
+            d = "static/breakie.jpg"
         elif first == 1 and second == 2:
-            d = "/static/cakie.jpg"
+            d = "static/cakie.jpg"
         elif first == 2 and second == 3:
-            d = "/static/cruskie.jpg"
+            d = "static/cruskie.jpg"
     elif np.argmax(confidence) == 0:
-        d = "/static/bread.jpg"
+        d = "static/bread.jpg"
     elif np.argmax(confidence) == 1:
-        d = "/static/cake.jpg"
+        d = "static/cake.jpg"
     elif np.argmax(confidence) == 2:
-        d = "/static/cookie.jpg"
+        d = "static/cookie.jpg"
     elif np.argmax(confidence) == 3:
-        d = "/static/croissant.jpg"
+        d = "static/croissant.jpg"
     
     return render_template('resultcr.html', bread= str(confidence[0]),
         cake = str(confidence[1]),
