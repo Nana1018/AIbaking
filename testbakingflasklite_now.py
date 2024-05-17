@@ -298,6 +298,8 @@ def baking():
         d = "static/cookie.jpg"
     elif np.argmax(confidence) == 3:
         d = "static/croissant.jpg"
+    else:
+        d = ""
     
     return render_template('resultcr.html', bread= str(confidence[0]),
         cake = str(confidence[1]),
