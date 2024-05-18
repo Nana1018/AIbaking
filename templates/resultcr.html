@@ -8,7 +8,7 @@
 <body>
 <center><font size="5" color="#3D332A"><h2>你的甜點是?</h2></center>
 <form action="{{ url_for('home') }}">
-    <center>
+    <left>
     <table>
     <tr>
         <td>Bread：{{ bread }} %</td>
@@ -20,15 +20,15 @@
         <td>Croissant：{{ croissant }} %</td>
     </tr>
     </table>
-    </center>
+    </left>
     
-    <center>
+    <left>
     <table>
     <tr>
         <td>
-            <center>
+            <left>
                 <strong>{{message}}!!</strong>
-            </center>
+            </left>
         </td>
         <td>
             <center>
@@ -37,18 +37,18 @@
         </td>
     </tr>
     </table> 
-    </center>
+    </left>
 
-    <center>
+    <left>
     <table>
         <tr>
             <td><center><h3>烘烤指標</h3><font size="5" color="#3D332A"></center>
             </td>
         </tr>
     </table>
-    </center>
+    </left>
     
-        <center>
+        <left>
         <table>
             <tr>
                 <td>Temperature：{{ Temperature }} &#8451</td>
@@ -56,15 +56,15 @@
                 <td>Time：{{ Time }} min</td>
             </tr>
         </table>
-        </center>
+        </left>
 
-        <center>
+        <left>
         <table>
             <tr>
             <td><input type="submit" value="返回前頁" style="width:120px;height:40px;"></td>
             </tr>
         </table>
-        </center>
+        </left>
         </form>
 
    </body>
