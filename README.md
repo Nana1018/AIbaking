@@ -2,7 +2,7 @@
 
 # AI Michelin Dessert Master System 
 ## About:
-This study utilizes neural network technology to establish a model for French dessert recipes. 
+     This study utilizes neural network technology to establish a model for French dessert recipes. 
 The system can identify dessert types from recipes. It empowers AI with innovative capabilities to create desserts with entirely new flavors, such as "Cakie" (50% cake, 50% cookie) and "Breakie" (50% bread, 50% cookie). 
 Additionally, it provides baking guidelines for users, recommending appropriate oven temperatures and baking times. 
 It can also generate dessert recipes based on taste preferences.
@@ -12,7 +12,7 @@ https://nowbaking-my-team-fdf1b477.vercel.app/?
 
 ## How it Works
 
-The system consists of two pages.
+     The system consists of two pages.
 The first page is the AI Baking interface, and the other page is the Generate Recipe page.
 
 AI baking interface: The recipe have 16 ingredients, enter the required ingredients and their weight (in grams) into the box grid.
