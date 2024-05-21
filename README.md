@@ -7,17 +7,19 @@ The system can identify dessert types from recipes. It empowers AI with innovati
 Additionally, it provides baking guidelines for users, recommending appropriate oven temperatures and baking times. 
 It can also generate dessert recipes based on taste preferences.
 
-## Demo
-https://nowbaking-my-team-fdf1b477.vercel.app/?
-
 ## How it Works
 The system consists of two pages.
 The first page is the AI Baking interface, and the other page is the Generate Recipe page.
 
-AI baking interface: The recipe have 16 ingredients, enter the required ingredients and their weight (in grams) into the box grid.
+##### AI baking interface: 
+The recipe have 16 ingredients, enter the required ingredients and their weight (in grams) into the box grid.
 Press the "送出" button to get the dessert and baking method corresponding to this recipe. You can also get the probability that the system recognizes that type of dessert.
 
-Generate Recipe interface:Pressing the "生成食譜" button will navigate to the Generate Recipe page. In this screen, you'll enter the desired taste preferences. Pressing the "生成" button will utilize the generation neural model to create an ingredient recipe that matches the taste requirements for this dessert.
+##### Generate Recipe interface:
+Pressing the "生成食譜" button will navigate to the Generate Recipe page. In this screen, you'll enter the desired taste preferences. Pressing the "生成" button will utilize the generation neural model to generate an ingredient recipe that matches the taste requirements for this dessert.
+
+## Demo
+https://nowbaking-my-team-fdf1b477.vercel.app/?
 
 ## File Description
 
