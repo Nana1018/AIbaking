@@ -32,8 +32,8 @@ https://nowbaking-my-team-fdf1b477.vercel.app/?
 All in the tempaltes file.
 
           indexbake.html = the main webpage used for AI baking.
-          resultcr.html = the internal webpage used for AI baking show recipe.
-          indexMake.html = the webpage used for Generate Recipe.
+          resultcr.html = the internal webpage used for showing recipes.
+          indexMake.html = the webpage used for Generating Recipe.
   
 ## Citing
 
