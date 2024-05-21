@@ -2,8 +2,10 @@
 
 # AI Michelin Dessert Master System 
 ## About:
-This example shows how to use Flask 3 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
-
+This study utilizes neural network technology to establish a model for French dessert recipes. 
+The system can identify dessert types from recipes. It empowers AI with innovative capabilities to create desserts with entirely new flavors, such as "Cakie" (50% cake, 50% cookie) and "Breakie" (50% bread, 50% cookie). 
+Additionally, it provides baking guidelines for users, recommending appropriate oven temperatures and baking times. 
+It can also generate dessert recipes based on taste preferences.
 ## Demo
 
 https://flask-python-template.vercel.app/
