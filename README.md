@@ -39,7 +39,7 @@ All in the tempaltes file.
 
 @article{AI Baking,
 
-Author={Anna. {Lo},
+Author={Hsin-Le. {Lo},
 
 title={AI Michelin Dessert Master System - A Study on the Application of Artificial Intelligence in Dessert Making},
 
