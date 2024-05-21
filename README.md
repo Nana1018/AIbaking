@@ -12,8 +12,8 @@ The system consists of two pages.
 The first page is the AI Baking interface, and the other page is the Generate Recipe page.
 
 ##### AI baking interface: 
-The recipe have 16 ingredients, enter the required ingredients and their weight (in grams) into the box grid.
-Press the "送出" button to get the dessert and baking method corresponding to this recipe. You can also get the probability that the system recognizes that type of dessert.
+The recipe have 16 ingredients, enter the required ingredients and their weight (in grams) into the box grid. Press the "送出" button,the dessert and baking method of this recipe will be obtained through the category neural model and the baking method neural model.
+You can also get the probability that the system recognizes that type of dessert.
 
 ##### Generate Recipe interface:
 Pressing the "生成食譜" button will navigate to the Generate Recipe page. In this screen, you'll enter the desired taste preferences. Pressing the "生成" button will utilize the generation neural model to generate an ingredient recipe that matches the taste requirements for this dessert.
