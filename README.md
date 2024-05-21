@@ -37,7 +37,7 @@ All in the tempaltes file.
   
 ## Citing
 
-@article{ShopSign,
+@article{AI Baking,
 
 Author={Anna. {Lo},
 
@@ -46,4 +46,4 @@ title={AI Michelin Dessert Master System - A Study on the Application of Artific
 year={2024}
 }
 #### Project Leader
-Anna Lo
+Lo, Hsin-Le
