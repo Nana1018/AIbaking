@@ -21,13 +21,13 @@ Generate Recipe interface:Pressing the "生成食譜" button will navigate to th
 
 ## File Description
 
-Programs and Models.
+### Programs and Models.
 
           testbakingflasklite_now.py = Main program.
           bakingTt.tflite = Is the model used by AI baking.
           bakindgen.tflite = Is the model used by Generate Recipe.
      
-Web App Program.
+### Web App Program.
 
 All in the tempaltes file.
 
@@ -45,3 +45,5 @@ title={AI Michelin Dessert Master System - A Study on the Application of Artific
 
 year={2024}
 }
+### Project Leader
+Anna Lo
