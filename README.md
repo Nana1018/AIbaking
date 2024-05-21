@@ -20,15 +20,19 @@ Press the "送出" button to get the dessert and baking method corresponding to 
 Generate Recipe interface:Pressing the "生成食譜" button will navigate to the Generate Recipe page. In this screen, you'll enter the desired taste preferences. Pressing the "生成" button will utilize the generation neural model to create an ingredient recipe that matches the taste requirements for this dessert.
 
 ## File Description
+
 Programs and Models.
-     testbakingflasklite_now.py = Main program.
-     bakingTt.tflite = Is the model used by AI baking.
-     bakindgen.tflite = Is the model used by Generate Recipe.
+
+          testbakingflasklite_now.py = Main program.
+          bakingTt.tflite = Is the model used by AI baking.
+          bakindgen.tflite = Is the model used by Generate Recipe.
+     
 Web App Program.
 All in the tempaltes file.
-     indexbake.html = Is the main webpage used for AI baking.
-     resultcr.html = Is the internal webpage used for AI baking show recipe.
-     indexMake.html = Is the webpage used for Generate Recipe.
+
+          indexbake.html = Is the main webpage used for AI baking.
+          resultcr.html = Is the internal webpage used for AI baking show recipe.
+          indexMake.html = Is the webpage used for Generate Recipe.
   
 ## One-Click Deploy
 
